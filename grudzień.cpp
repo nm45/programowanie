@@ -135,7 +135,7 @@ int main() {
 	Reverse(text);
 	getLength(text);
 	//zadania 4
-	cout << "podaj liczbê n" << endl;
+	cout << "podaj liczbÃª n" << endl;
 	int n;
 	cin >> n;
 	int*tab;
