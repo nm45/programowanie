@@ -32,7 +32,7 @@ Node* Create(int val) {
 }
 
 int main() {
-	/*
+
 	struct Student {
 	int Age;
 	int Height;
@@ -71,8 +71,8 @@ int main() {
 	free(Sebastian);
 	free(Marek);
 	};
-	*/
-	//zadanie3_1();
+	
+	zadanie3_1();
 	Node*root = Create(2);
 	system("pause");
 	return 0;
