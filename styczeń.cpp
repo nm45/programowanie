@@ -3,7 +3,6 @@
 #include <stdio.h>;
 #include <stdlib.h>;
 #include <string>;
-#include "functions.cpp";
 using namespace std;
 typedef struct Node Node;
 struct Node {
