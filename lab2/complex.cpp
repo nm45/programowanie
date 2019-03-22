@@ -46,3 +46,23 @@ public:
 		return end;
 	}
 };
+
+
+class assert {
+private:
+	string item_num,item_letter;
+public:
+	assert(string item_letter,string item_num) {
+		this->item_letter = item_letter;
+		this->item_num = item_num;
+	}
+	int AreEqual() {
+		complex *temp = new complex(item_letter);
+		string end = temp->ToString();
+		delete temp;
+		if (end == item_num)
+			return 1;
+		else
+			return 0;
+	}
+};
